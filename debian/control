@@ -1,0 +1,15 @@
+Source: validns
+Section: unknown
+Priority: extra
+Maintainer: Jerry Lundström <lundstrom.jerry@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), libjudy-dev (>= 1.0.5), libssl-dev (>= 0.9.8), perl, libtest-command-simple-perl (>= 0.08)
+Standards-Version: 3.8.4
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/validns.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/validns.git;a=summary
+
+Package: validns
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libjudydebian1 (>= 1.0.5), libssl0.9.8 (>= 0.9.8)
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
