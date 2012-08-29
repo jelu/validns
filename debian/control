@@ -1,5 +1,5 @@
 Source: validns
-Section: unknown
+Section: utils
 Priority: extra
 Maintainer: Jerry Lundström <lundstrom.jerry@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), libjudy-dev (>= 1.0.5), libssl-dev (>= 0.9.8), perl, libtest-command-simple-perl (>= 0.03)
