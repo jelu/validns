@@ -1,3 +1,11 @@
+validns (0.5git-3~unstable+1) unstable; urgency=low
+
+  * debian/copyright: Update copyright.
+  * debian/validns.install: Install the binary.
+  * debian/validns.manpages: Install the manpage.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Thu, 30 Aug 2012 10:58:59 +0200
+
 validns (0.5git-2~unstable+1) unstable; urgency=low
 
   * Changed section to utils.
