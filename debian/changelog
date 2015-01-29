@@ -1,3 +1,9 @@
+validns (0.8git.dd75b6c-1~unstable+1) unstable; urgency=low
+
+  * New upstream release 0.8 commit dd75b6c.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Thu, 29 Jan 2015 14:55:26 +0100
+
 validns (0.6git-1~unstable+1) unstable; urgency=low
 
   * New upstream release 0.6 commit 799fcb3 to include libutil removal.

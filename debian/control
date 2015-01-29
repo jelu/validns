@@ -2,14 +2,33 @@ Source: validns
 Section: utils
 Priority: extra
 Maintainer: Jerry Lundström <lundstrom.jerry@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), libjudy-dev (>= 1.0.5), libssl-dev (>= 0.9.8), perl, libtest-command-simple-perl (>= 0.03)
+Build-Depends: debhelper (>= 7), libjudy-dev (>= 1.0.5), libssl-dev (>= 0.9.8),
+ perl, libtest-command-simple-perl (>= 0.03)
 Standards-Version: 3.8.4
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/validns.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/validns.git;a=summary
+Homepage: http://www.validns.net/
 
 Package: validns
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libjudydebian1 (>= 1.0.5), libssl0.9.8 (>= 0.9.8)
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${shlibs:Depends}, ${misc:Depends}, libjudydebian1 (>= 1.0.5),
+ libssl0.9.8 (>= 0.9.8)
+Description: a high performance DNS/DNSSEC zone validator
+ Validns is a standalone command line RFC 1034/1035 zone file validation tool
+ that, in addition to basic syntactic and semantic zone checks, includes DNSSEC
+ signature verification and NSEC/NSEC3 chain validation, as well a number of
+ optional policy checks on the zone.
+ .
+ The utility was developed with the goal of it being the last verification
+ step in the chain of production and publication of one or more zones
+ containing up to many thousands (or millions) of signed records, making the
+ speed of operation a primary focus, and reflect on validns’ design.
+ .
+ The utility is currently being used by several major DNS operators.
+ .
+ Currently, validns offers the following features:
+    * parse RFC 1035-compliant zone files (so called “BIND” file format)
+    * supports most of the standard record types
+    * informs the user precisely where and what the errors are
+    * verifies RRSIG signatures
+    * NSEC/NSEC3 chain validation
+    * supports signature validation in the future or in the past
+    * built-in policy checks

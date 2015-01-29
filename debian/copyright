@@ -12,7 +12,7 @@ Upstream Author(s):
 
 Copyright:
 
-    Copyright (c) 2011, 2012 Anton Berezin "<tobez@tobez.org>".
+    Copyright (c) 2011-2014 Anton Berezin "<tobez@tobez.org>".
 
 License:
 
@@ -41,7 +41,7 @@ License:
 
 The Debian packaging is:
 
-    Copyright (C) 2012 Jerry Lundström <lundstrom.jerry@gmail.com>
+    Copyright (C) 2015 Jerry Lundström <lundstrom.jerry@gmail.com>
 
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions are
