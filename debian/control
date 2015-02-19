@@ -9,8 +9,7 @@ Homepage: http://www.validns.net/
 
 Package: validns
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libjudydebian1 (>= 1.0.5),
- libssl0.9.8 (>= 0.9.8)
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: a high performance DNS/DNSSEC zone validator
  Validns is a standalone command line RFC 1034/1035 zone file validation tool
  that, in addition to basic syntactic and semantic zone checks, includes DNSSEC

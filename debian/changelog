@@ -1,3 +1,9 @@
+validns (0.8git.dd75b6c-2~unstable+1) unstable; urgency=low
+
+  * Package fixes.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Thu, 19 Feb 2015 10:42:52 +0100
+
 validns (0.8git.dd75b6c-1~unstable+1) unstable; urgency=low
 
   * New upstream release 0.8 commit dd75b6c.
