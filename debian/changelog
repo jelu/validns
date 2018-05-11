@@ -1,3 +1,9 @@
+validns (0.9-1~really0.8git.f423245~unstable+1) unstable; urgency=low
+
+  * New upstream release of 0.8 commit f423245
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Fri, 11 May 2018 07:54:52 +0200
+
 validns (0.8git.dd75b6c-2~unstable+1) unstable; urgency=low
 
   * Package fixes.
